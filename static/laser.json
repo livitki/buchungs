@@ -1,0 +1,23 @@
+[
+{"name":"Mini", "range":"6-10", "duration": 45},
+{"name":"Small", "range":"6-10", "duration": 75},
+{"name":"Medium", "range":"6-10", "duration": 105},
+{"name":"Large", "range":"6-10", "duration": 135},
+{"name":"Exklusiv", "range":"1 Std.", "duration": 60},
+
+{"name":"Mini", "range":"12-15", "duration": 45},
+{"name":"Small", "range":"12-15", "duration": 105},
+{"name":"Medium", "range":"12-15", "duration": 150},
+{"name":"Large", "range":"12-15", "duration": 195},
+{"name":"Exklusiv", "range":"2 Std.", "duration": 120},
+
+{"name":"Mini", "range":"16-20", "duration": 90},
+{"name":"Small", "range":"16-20", "duration": 120},
+{"name":"Medium", "range":"16-20", "duration": 180},
+{"name":"Large", "range":"16-20", "duration": 240},
+{"name":"Exklusiv", "range":"3 Std.", "duration": 180},
+
+{"name":"Exklusiv", "range":"4 Std.", "duration": 240},
+{"name":"Exklusiv", "range":"5 Std.", "duration": 300},
+{"name":"Exklusiv", "range":"6 Std.", "duration": 360}
+]

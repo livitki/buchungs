@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta cahrset="UTF-8">
+<title>
+BUCHUNG
+</title>
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="static/js/dijit/themes/claro/claro.css">
+<link rel="stylesheet" href="static/css/style.css">
+<style type="text/css">@import "static/js/dojox/grid/resources/claroGrid.css";</style>
+<link rel="stylesheet" href="static/js/dojox/calendar/themes/claro/Calendar.css">
+<style type="text/css">
+	/*@import "static/js/dojox/calendar/themes/claro/MatrixView.css";*/
+	body {margin: 0;padding: 0}
+	.dojoxCalendarWeekend {background: none !important;}
+	.dojoxCalendarWeekend span {color: #000 !important;}
+	#controlsNode {
+		margin: 0px;
+		padding: 0px;
+		position: absolute;
+		width: 100%;
+	}
+
+	#controlsDateNode{
+		height: 100px;
+		display: none;
+		width: 200px;
+	}
+	#addProductsNode{
+		display: none;
+		position: absolute;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		background: green;
+		z-index: 1;
+	}
+
+	.greyCell{
+	  background-color: #2B6424 !important;
+	}
+
+	.Retro .bg{
+		background-color: #2B6424 !important;
+	}
+	.Retro .startTime{
+		background-color: #2B6424 !important;
+	}
+	.Retro.Hovered .bg{
+		background-color: #2B6424 !important;
+	}
+	.buttonContainer {
+		display: none;
+	}
+	/*#calendarNode {
+		margin: 10px;
+		position: relative;
+		height: 500px;
+	}*/
+</style>
+<script>
+dojoConfig={
+	parseOnLoad:true,
+	async:true,
+	locale: 'de-de',
+	baseUrl: "static/js",
+	cacheBust: true,
+	packages: [{
+	    name: "app",
+	    location: "app"
+	},
+	{
+	    name: "dojo",
+	    location: "dojo"
+	},
+	{
+	    name: "dijit",
+	    location: "dijit"
+	},
+	{
+	    name: "dojox",
+	    location: "dojox"
+	}]
+}
+
+</script>
+<script  src="static/js/dojo/dojo.js"></script>
+<script>
+require(["dojo/ready"],function(ready){
+ready(function(){
+	require(["app/main"], function(main){
+		main();
+	});
+});
+})
+
+</script>
+</head>
+<body class="claro">
+<div id="controlsNode" style="display: none">
+	<div id="controlsDateNode"></div>
+	<div id="controlsButtonsNode"></div>
+</div>
+<div id="addProductsNode">
+	<div id="productsNode">
+		<div id="productsNodeHeader">
+		</div>
+		<div id="productsNodeBody">
+
+		</div>
+		<div id="productsOption">
+
+		</div>
+	</div>
+
+</div>
+<div id="calendarNode" ></div>
+</body>
+</html>

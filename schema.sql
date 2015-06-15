@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS cart_buchung (
+
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    datum TEXT,
+    json TEXT
+);
+
+CREATE TABLE IF NOT EXISTS laser_buchung (
+
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    datum TEXT,
+    json TEXT
+);

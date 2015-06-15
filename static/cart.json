@@ -1,0 +1,25 @@
+[
+{"name":"Dienstagsrennen", "range":"6-12", "duration": 30},
+{"name":"Grand Prix 20", "range":"6-12", "duration": 45},
+{"name":"Grand Prix 30", "range":"6-12", "duration": 60},
+{"name":"Grand Prix 40", "range":"6-12", "duration": 75},
+{"name":"Grand Prix 60", "range":"6-12", "duration": 90},
+{"name":"Team Race", "range":"12-24", "duration": 90},
+{"name":"Team Race 60", "range":"12-24", "duration": 105},
+{"name":"Exklusiv", "range":"1 Std.", "duration": 60},
+
+{"name":"Dienstagsrennen", "range":"13-24", "duration": 60},
+{"name":"Grand Prix 20", "range":"13-24", "duration": 130},
+{"name":"Grand Prix 30", "range":"13-24", "duration": 105},
+{"name":"Grand Prix 40", "range":"13-24", "duration": 135},
+{"name":"Grand Prix 60", "range":"13-24", "duration": 180},
+
+
+{"name":"Exklusiv", "range":"2 Std.", "duration": 120},
+{"name":"Exklusiv", "range":"3 Std.", "duration": 180},
+{"name":"Exklusiv", "range":"4 Std.", "duration": 240},
+{"name":"Exklusiv", "range":"5 Std.", "duration": 300},
+{"name":"Exklusiv", "range":"6 Std." , "duration": 360}
+
+]
+
