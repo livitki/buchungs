@@ -14,12 +14,10 @@
 {"name":"Grand Prix 40", "range":"13-24", "duration": 135},
 {"name":"Grand Prix 60", "range":"13-24", "duration": 180},
 
-
 {"name":"Exklusiv", "range":"2 Std.", "duration": 120},
 {"name":"Exklusiv", "range":"3 Std.", "duration": 180},
 {"name":"Exklusiv", "range":"4 Std.", "duration": 240},
 {"name":"Exklusiv", "range":"5 Std.", "duration": 300},
 {"name":"Exklusiv", "range":"6 Std." , "duration": 360}
-
 ]
 
